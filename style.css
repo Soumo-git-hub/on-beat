@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    border-bottom: 2px solid #ff004c;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff004c; /* Accent color */
+  }
+  
+  .top-right {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .streak {
+    font-size: 18px;
+    color: #ff004c;
+  }
+  
+  .profile-button img {
+    width: 40px; /* Adjust size as needed */
+    cursor: pointer;
+  }
+  
+  .main {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .game-container {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 3px solid #ff004c;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(255, 0, 76, 0.6);
+  }
+  
+  .swipe-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 265px;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .model-viewer img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 0, 76, 0.7);
+  }
+  
+  .controls {
+    margin-top: 30px;
+  }
+  
+  .left-controls, .right-controls {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    background-color: #ff004c;
+    color: #fff;
+    border: none;
+    padding: 15px 25px; /* Increased padding for better appearance */
+    margin: 5px 0;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff00d0; /* Change button color on hover */
+  }
+  
+  /* Footer Styling */
+  footer {
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  footer ul li a:hover {
+    color: #ff004c;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    color: #777;
+  }
+  .profile-button {
+    margin-top: 20px; /* Move it down */
+    margin-right: 20px; /* Add right margin for spacing */
+    cursor: pointer;
+}
+
+.profile-button img {
+    width: 60px; /* Increase the size of the profile image */
+    height: 40px; /* Keep it a square */
+    border-radius: 50%; /* Optional: make the image circular */
+}
+  
